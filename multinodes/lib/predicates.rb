@@ -2,13 +2,13 @@
 # vi: set ft=ruby :
 
 def master?(name)
-    return /^master/ =~ name
+  /^master/ =~ name
 end
 
 def slave?(name)
-    return /^slave/ =~ name
+  /^slave/ =~ name
 end
 
 def zk?(name)
-    return /^zk/ =~ name
+  /^zk/ =~ name
 end
